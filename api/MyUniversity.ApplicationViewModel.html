@@ -1,0 +1,667 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ApplicationViewModel
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ApplicationViewModel
+   ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MyUniversity.ApplicationViewModel">
+  
+  
+  <h1 id="MyUniversity_ApplicationViewModel" data-uid="MyUniversity.ApplicationViewModel" class="text-break">Class ApplicationViewModel
+  </h1>
+  <div class="markdown level0 summary"><p>Представляет модель представления приложения.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ApplicationViewModel</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MyUniversity.html">MyUniversity</a></h6>
+  <h6><strong>Assembly</strong>: MyUniversity.dll</h6>
+  <h5 id="MyUniversity_ApplicationViewModel_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ApplicationViewModel : INotifyPropertyChanged</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="MyUniversity_ApplicationViewModel__ctor_" data-uid="MyUniversity.ApplicationViewModel.#ctor*"></a>
+  <h4 id="MyUniversity_ApplicationViewModel__ctor" data-uid="MyUniversity.ApplicationViewModel.#ctor">ApplicationViewModel()</h4>
+  <div class="markdown level1 summary"><p>Инициализирует новый экземпляр класса ApplicationViewModel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ApplicationViewModel()</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="MyUniversity_ApplicationViewModel_AddCommand_" data-uid="MyUniversity.ApplicationViewModel.AddCommand*"></a>
+  <h4 id="MyUniversity_ApplicationViewModel_AddCommand" data-uid="MyUniversity.ApplicationViewModel.AddCommand">AddCommand</h4>
+  <div class="markdown level1 summary"><p>Команда для добавления нового студента.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand AddCommand { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MyUniversity.RelayCommand.html">RelayCommand</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MyUniversity_ApplicationViewModel_AxisLabels_" data-uid="MyUniversity.ApplicationViewModel.AxisLabels*"></a>
+  <h4 id="MyUniversity_ApplicationViewModel_AxisLabels" data-uid="MyUniversity.ApplicationViewModel.AxisLabels">AxisLabels</h4>
+  <div class="markdown level1 summary"><p>Свойство получает или задает серии данных для графика.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string[] AxisLabels { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MyUniversity_ApplicationViewModel_AxisYStep_" data-uid="MyUniversity.ApplicationViewModel.AxisYStep*"></a>
+  <h4 id="MyUniversity_ApplicationViewModel_AxisYStep" data-uid="MyUniversity.ApplicationViewModel.AxisYStep">AxisYStep</h4>
+  <div class="markdown level1 summary"><p>Свойство получает или задает шаг оси Y для графика.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double AxisYStep { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MyUniversity_ApplicationViewModel_CreateDatabaseCommand_" data-uid="MyUniversity.ApplicationViewModel.CreateDatabaseCommand*"></a>
+  <h4 id="MyUniversity_ApplicationViewModel_CreateDatabaseCommand" data-uid="MyUniversity.ApplicationViewModel.CreateDatabaseCommand">CreateDatabaseCommand</h4>
+  <div class="markdown level1 summary"><p>Команда для создания базы данных.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand CreateDatabaseCommand { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MyUniversity.RelayCommand.html">RelayCommand</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MyUniversity_ApplicationViewModel_Criteria_" data-uid="MyUniversity.ApplicationViewModel.Criteria*"></a>
+  <h4 id="MyUniversity_ApplicationViewModel_Criteria" data-uid="MyUniversity.ApplicationViewModel.Criteria">Criteria</h4>
+  <div class="markdown level1 summary"><p>Свойство получает или задает коллекцию критериев поиска.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;string&gt; Criteria { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ObservableCollection</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MyUniversity_ApplicationViewModel_DeleteCommand_" data-uid="MyUniversity.ApplicationViewModel.DeleteCommand*"></a>
+  <h4 id="MyUniversity_ApplicationViewModel_DeleteCommand" data-uid="MyUniversity.ApplicationViewModel.DeleteCommand">DeleteCommand</h4>
+  <div class="markdown level1 summary"><p>Команда для удаления студента.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand DeleteCommand { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MyUniversity.RelayCommand.html">RelayCommand</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MyUniversity_ApplicationViewModel_DeleteDatabaseCommand_" data-uid="MyUniversity.ApplicationViewModel.DeleteDatabaseCommand*"></a>
+  <h4 id="MyUniversity_ApplicationViewModel_DeleteDatabaseCommand" data-uid="MyUniversity.ApplicationViewModel.DeleteDatabaseCommand">DeleteDatabaseCommand</h4>
+  <div class="markdown level1 summary"><p>Команда для удаления базы данных.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand DeleteDatabaseCommand { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MyUniversity.RelayCommand.html">RelayCommand</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MyUniversity_ApplicationViewModel_EditCommand_" data-uid="MyUniversity.ApplicationViewModel.EditCommand*"></a>
+  <h4 id="MyUniversity_ApplicationViewModel_EditCommand" data-uid="MyUniversity.ApplicationViewModel.EditCommand">EditCommand</h4>
+  <div class="markdown level1 summary"><p>Команда для изменения данных о студенте.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand EditCommand { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MyUniversity.RelayCommand.html">RelayCommand</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MyUniversity_ApplicationViewModel_ExitCommand_" data-uid="MyUniversity.ApplicationViewModel.ExitCommand*"></a>
+  <h4 id="MyUniversity_ApplicationViewModel_ExitCommand" data-uid="MyUniversity.ApplicationViewModel.ExitCommand">ExitCommand</h4>
+  <div class="markdown level1 summary"><p>Команда для закрытия окна.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand ExitCommand { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MyUniversity.RelayCommand.html">RelayCommand</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MyUniversity_ApplicationViewModel_ExportToJsonCommand_" data-uid="MyUniversity.ApplicationViewModel.ExportToJsonCommand*"></a>
+  <h4 id="MyUniversity_ApplicationViewModel_ExportToJsonCommand" data-uid="MyUniversity.ApplicationViewModel.ExportToJsonCommand">ExportToJsonCommand</h4>
+  <div class="markdown level1 summary"><p>Команда для экспорта данных в json формате.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand ExportToJsonCommand { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MyUniversity.RelayCommand.html">RelayCommand</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MyUniversity_ApplicationViewModel_Formatter_" data-uid="MyUniversity.ApplicationViewModel.Formatter*"></a>
+  <h4 id="MyUniversity_ApplicationViewModel_Formatter" data-uid="MyUniversity.ApplicationViewModel.Formatter">Formatter</h4>
+  <div class="markdown level1 summary"><p>Свойство получает или задает функцию форматирования для значения оси Y графика.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Func&lt;double, string&gt; Formatter { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Func</span>&lt;<span class="xref">System.Double</span>, <span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MyUniversity_ApplicationViewModel_GeneratePerformanceReportCommand_" data-uid="MyUniversity.ApplicationViewModel.GeneratePerformanceReportCommand*"></a>
+  <h4 id="MyUniversity_ApplicationViewModel_GeneratePerformanceReportCommand" data-uid="MyUniversity.ApplicationViewModel.GeneratePerformanceReportCommand">GeneratePerformanceReportCommand</h4>
+  <div class="markdown level1 summary"><p>Команда для генерации отчета об успеваемости.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand GeneratePerformanceReportCommand { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MyUniversity.RelayCommand.html">RelayCommand</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MyUniversity_ApplicationViewModel_SearchText_" data-uid="MyUniversity.ApplicationViewModel.SearchText*"></a>
+  <h4 id="MyUniversity_ApplicationViewModel_SearchText" data-uid="MyUniversity.ApplicationViewModel.SearchText">SearchText</h4>
+  <div class="markdown level1 summary"><p>Свойство получает или задает текст для поиска.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SearchText { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MyUniversity_ApplicationViewModel_SelectedCriteria_" data-uid="MyUniversity.ApplicationViewModel.SelectedCriteria*"></a>
+  <h4 id="MyUniversity_ApplicationViewModel_SelectedCriteria" data-uid="MyUniversity.ApplicationViewModel.SelectedCriteria">SelectedCriteria</h4>
+  <div class="markdown level1 summary"><p>Свойство получает или задает выбранный критерий поиска.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SelectedCriteria { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MyUniversity_ApplicationViewModel_ShowExams_" data-uid="MyUniversity.ApplicationViewModel.ShowExams*"></a>
+  <h4 id="MyUniversity_ApplicationViewModel_ShowExams" data-uid="MyUniversity.ApplicationViewModel.ShowExams">ShowExams</h4>
+  <div class="markdown level1 summary"><p>Команда для открытия нового окна с информацией об экзаменах.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand ShowExams { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MyUniversity.RelayCommand.html">RelayCommand</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MyUniversity_ApplicationViewModel_ShowPerformanceChartCommand_" data-uid="MyUniversity.ApplicationViewModel.ShowPerformanceChartCommand*"></a>
+  <h4 id="MyUniversity_ApplicationViewModel_ShowPerformanceChartCommand" data-uid="MyUniversity.ApplicationViewModel.ShowPerformanceChartCommand">ShowPerformanceChartCommand</h4>
+  <div class="markdown level1 summary"><p>Команда для отрисовки графика.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand ShowPerformanceChartCommand { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MyUniversity.RelayCommand.html">RelayCommand</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MyUniversity_ApplicationViewModel_SortCommand_" data-uid="MyUniversity.ApplicationViewModel.SortCommand*"></a>
+  <h4 id="MyUniversity_ApplicationViewModel_SortCommand" data-uid="MyUniversity.ApplicationViewModel.SortCommand">SortCommand</h4>
+  <div class="markdown level1 summary"><p>Команда для сортировки данных в алфавитном порядке.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand SortCommand { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MyUniversity.RelayCommand.html">RelayCommand</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MyUniversity_ApplicationViewModel_StudentsWithSubjects_" data-uid="MyUniversity.ApplicationViewModel.StudentsWithSubjects*"></a>
+  <h4 id="MyUniversity_ApplicationViewModel_StudentsWithSubjects" data-uid="MyUniversity.ApplicationViewModel.StudentsWithSubjects">StudentsWithSubjects</h4>
+  <div class="markdown level1 summary"><p>Получает или задает коллекцию студентов с данными о записях на курсы.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;Student&gt; StudentsWithSubjects { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ObservableCollection</span>&lt;<a class="xref" href="MyUniversity.Student.html">Student</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="MyUniversity_ApplicationViewModel_OnPropertyChanged_" data-uid="MyUniversity.ApplicationViewModel.OnPropertyChanged*"></a>
+  <h4 id="MyUniversity_ApplicationViewModel_OnPropertyChanged_System_String_" data-uid="MyUniversity.ApplicationViewModel.OnPropertyChanged(System.String)">OnPropertyChanged(String)</h4>
+  <div class="markdown level1 summary"><p>Функция для вызова события.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnPropertyChanged(string propertyName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">propertyName</span></td>
+        <td><p>Имя измененного свойства.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="MyUniversity_ApplicationViewModel_PropertyChanged" data-uid="MyUniversity.ApplicationViewModel.PropertyChanged">PropertyChanged</h4>
+  <div class="markdown level1 summary"><p>Событие для отслеживания изменений свойств.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler PropertyChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PropertyChangedEventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
